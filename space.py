@@ -71,6 +71,7 @@ def people_in_spacecraft(data, craft_name):
 data = get_data()
 run = True
 
+print()
 print("Enter 1 to search by name")
 print("Enter 2 to search by spacecraft")
 print("Enter 3 to print data")
@@ -129,7 +130,7 @@ elif option == "2":
                 print("\t" + str(i+1) + ")", people[i])
 
             print()
-else:
+elif option == "3":
     print_data(data)
 
         
